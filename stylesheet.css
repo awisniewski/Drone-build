@@ -1,0 +1,54 @@
+div {
+	border-radius: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #303030;
+}
+
+
+#header	{
+	text-align: center;
+	z-index: 1;
+	position: fixed;
+	width: 97.5%;
+	margin-top: -20px;
+	height: 60px;
+	background-color: #999966;
+	margin-bottom: 20px;
+}
+
+.leftside {
+	position: relative;
+	float: left;
+	margin-top: 70px;
+	width: 10%;
+	height: 425px;
+	background-color: #4C4C33;
+	margin-bottom: 10px;
+}
+
+
+.rightside {
+	position: relative;
+	float: right;
+	margin-top: 50px;
+	width: 88%;
+	height: 400px;
+	background-color: #8EFF8E;
+	margin-bottom: 10px;
+}
+
+
+
+#footer {
+	position: relative;
+	height: 50px;
+	background-color: #999966;
+	clear: both;
+	font-family: times;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+}
