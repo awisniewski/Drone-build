@@ -1,6 +1,9 @@
+
 div {
 	border-radius: 10px;
 }
+
+
 
 a {
 	text-decoration: none;
@@ -24,9 +27,17 @@ a {
 	float: left;
 	margin-top: 70px;
 	width: 10%;
-	height: 425px;
+	height: 600px;
 	background-color: #4C4C33;
 	margin-bottom: 10px;
+	color: blue;
+
+}
+
+ /* For left sidebar Nav links */
+.leftside a {
+  color: white;
+  align: center;
 }
 
 
@@ -35,7 +46,7 @@ a {
 	float: right;
 	margin-top: 50px;
 	width: 88%;
-	height: 400px;
+	height: 600px;
 	background-color: #8EFF8E;
 	margin-bottom: 10px;
 }
@@ -52,3 +63,23 @@ a {
 	text-align: center;
 	color: white;
 }
+
+
+
+
+img {
+	width:100px;
+	height:100px;
+}
+
+
+table tr td {
+	border: 3px #70b8ff solid;
+	font-size: 20px;
+	background-color: #8EFF8E;
+}
+
+div div div h3  {   color: red;
+}
+
+
