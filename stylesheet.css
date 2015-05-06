@@ -51,6 +51,15 @@ a {
 	margin-bottom: 10px;
 }
 
+.rightside table tr td img {
+
+	width:250px;
+	height:250px;
+}
+
+
+}
+
 
 
 #footer {
@@ -72,13 +81,14 @@ img {
 	height:100px;
 }
 
-
+/*     needed? or for example?   */
 table tr td {
 	border: 3px #70b8ff solid;
 	font-size: 20px;
 	background-color: #8EFF8E;
 }
 
+/*     needed? or for example?   */
 div div div h3  {   color: red;
 }
 
