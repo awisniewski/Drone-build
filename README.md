@@ -3,7 +3,8 @@ HTML / CSS project
 Beginners guide to building a Drone
 
 Preview the code here:
-http://htmlpreview.github.io/?https://github.com/awisniewski/Drone-build/blob/master/index.html
+https://htmlpreview.github.io/?https://raw.githubusercontent.com/awisniewski/DroneDIY_HTML/master/index.html
+
 
 backup preview server:
-https://rawgit.com/awisniewski/Drone-build/master/index.html
+https://rawgit.com/awisniewski/DroneDIY_HTML/master/index.html
