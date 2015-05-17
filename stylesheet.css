@@ -5,6 +5,11 @@ div {
 
 
 
+#container {
+	min-height:100%;
+}
+
+
 a {
 	text-decoration: none;
 	color: #303030;
@@ -28,13 +33,14 @@ a {
 	margin-top: 70px;
 	width: 10%;
 	height: 600px;
-	background-color: #4C4C33;
+	/* #4C4C33 */
+	background-color: #4C4C33 ;
 	margin-bottom: 10px;
 	color: blue;
 
 }
 
- /*  For left sidebar Nav links */
+ /*  For left sidebar Navigation links - KEEP */
 .leftside a {
   color: white;
   align: center;
@@ -46,7 +52,7 @@ a {
 	float: right;
 	margin-top: 50px;
 	width: 88%;
-	height: 600px;
+	/* height: 600px; */
 	background-color: #8EFF8E;
 	margin-bottom: 10px;
 }
@@ -55,24 +61,31 @@ a {
 
 	width:275px;
 	height:325px;
-}
-
 
 }
 
 
 
 #footer {
-	position: relative;
+
+	/* Footer practice, forcing footer to be at the true bottom  */
+	/*   */
+
+	z-index: 10;
+	
 	height: 50px;
 	background-color: #999966;
-	clear: both;
+	position: fixed;
+	clear: both;   
+	float: bottom; 
+
 	font-family: times;
 	font-size: 14px;
 	text-align: center;
 	color: white;
-}
+	bottom:0
 
+}
 
 
 
@@ -80,6 +93,9 @@ img {
 	width:100px;
 	height:100px;
 }
+
+
+
 
 /*     needed? or for example?   */
 table tr td {
