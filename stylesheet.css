@@ -57,10 +57,11 @@ a {
 	margin-bottom: 10px;
 }
 
+/* Gallery images: Size them  */
 .rightside table tr td img {
 
-	width:275px;
-	height:325px;
+	width:250px;
+	height:275px;
 
 }
 
